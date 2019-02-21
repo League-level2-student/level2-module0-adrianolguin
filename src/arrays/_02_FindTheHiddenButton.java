@@ -59,7 +59,6 @@ public class _02_FindTheHiddenButton implements ActionListener{
 		for(int x = 0; x < buttons.length; x++) {
 			buttons[x] = new JButton();
 			buttons[x].addActionListener(this);
-			//buttons[x].setSize(width, height);
 			panel.add(buttons[x]);
 		}
 		
@@ -110,7 +109,7 @@ public class _02_FindTheHiddenButton implements ActionListener{
 		if(e.getSource() == buttons[hiddenButton]) {
 			JOptionPane.showMessageDialog(null, "You win!");
 		} else {
-			JOptionPane.showMessageDialog(null, "Sorry, incorrect");
+			JOptionPane.showMessageDialog(null, "Sorry, incorrect. Try again.");
 		}
 		
 		//18. else tell them to try again

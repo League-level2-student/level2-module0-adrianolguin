@@ -7,6 +7,16 @@ public class _00_ArrayCheatSheet {
 	static Random rand = new Random();
 
 	public static void main(String[] args) {
+		
+		int[] list = new int[5];
+		
+		list[4] = 3;
+		list[3] = 2;
+		
+		//System.out.println("" + list[list.length - 1]);
+		
+		
+		
 		// 1. make an array of 5 Strings
 		String[] c = { "one", "two", "three", "four" };
 		// 2. print the third element in the array
